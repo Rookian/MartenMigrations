@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CLIGlobalTool": {
+      "commandName": "Project",
+      "commandLineArgs": "add \"Rename something\""
+    }
+  }
+}

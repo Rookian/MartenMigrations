@@ -1,0 +1,14 @@
+﻿using System;
+using System.Threading.Tasks;
+
+namespace CLIGlobalTool
+{
+	[Migration("#migrationMessage#")]
+    public class Migration_#className# : Migration
+    {
+        public Task Migrate()
+        {
+			throw new NotImplementedException();
+        }
+    }
+}
