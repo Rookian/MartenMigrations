@@ -32,11 +32,9 @@ namespace CLIGlobalTool
                 return;
             }
 
-            //Console.WriteLine($"Working Directory is: {Environment.CurrentDirectory}");
-
             var migrationMessage = args[1];
 
-            var time = DateTime.UtcNow.ToString(CultureInfo.InvariantCulture).ReplaceSpecialCharacters();
+            var time = DateTime.UtcNow.ToString("yyyyMMddhhmmss").ReplaceSpecialCharacters();
             Console.WriteLine(time);
 
 
